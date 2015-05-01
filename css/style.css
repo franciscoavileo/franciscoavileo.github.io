@@ -434,33 +434,37 @@ hr {
 --- Contact
 ============================ */
 
-.map {
-  height: 100%;
+#map-outer {
+    height: 330px;
+    padding: 10px;
+    border: 2px solid #CCC;
+    margin-bottom: 10px;
+    background-color:#FFF
 }
 
-#map-canvas {
-  width: 100%;
-  height: 100%;
+#map-container {
+    height: 300px
 }
 
 form#contact-form .form-group label {
-	text-align: left !important;
-	display: block;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 12px;
+    text-align: left !important;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
 }
 form#contact-form input,form#contact-form select,form#contact-form textarea {
-	border-radius: 0;
-	border: 1px solid #eee;
-  -webkit-box-shadow: none;
-          box-shadow:  none;
+    border-radius: 0;
+    border: 1px solid #eee;
+    -webkit-box-shadow: none;
+    box-shadow:  none;
 }
 
 form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
 }
+
 .input-group-addon {
   background-color: #fefefe;
   border: 1px solid #eee;
@@ -468,37 +472,36 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 .widget-contact {
-	text-align: left;
+    text-align: left;
 }
 
 
 .company-social {
-	margin-left: 0;
-	padding-left: 0;
-	margin-top: 10px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 10px;
 }
 
 .company-social {
-	text-align: left;
+    text-align: left;
 }
 
 .company-social li{
     display: inline-block;
-	margin:0 !important;
-	padding:0;
+    margin:0 !important;
+    padding:0;
 }
 
-
 .company-social a{
-	margin:0;
-	padding:0;
+    margin:0;
+    padding:0;
     display: block;
-	width: 40px;
+    width: 40px;
     height: 40px;
     line-height: 40px;
     text-align: center;
     background: #3bbec0;
-	color: #fff;
+    color: #fff;
     -webkit-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
