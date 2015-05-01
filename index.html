@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Francisco Avileo - Architectural 3D rendering</title>
+  <title>Francisco Avileo</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -27,12 +27,15 @@
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/wow.min.js"></script>
 
+  <!-- Localization -->
+  <link rel="resource" type="application/l10n" href="locales/locales.ini" />
+  <script type="text/javascript" src="js/l10n.js"></script>
+
   <!-- Maps -->
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
   <script src="js/maps.js"></script>
 
   <script src="js/custom.js"></script>
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -55,8 +58,8 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#intro">Home</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="active"><a href="#intro" data-l10n-id="home">Home</a></li>
+          <li><a href="#contact" data-l10n-id="contact">Contact</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -68,7 +71,7 @@
   <section id="intro" class="intro">
     <div class="slogan">
       <h2><span class="text_color">FRANCISCO AVILEO</span></h2>
-      <h4>ARCHITECTURAL 3D RENDERING</h4>
+      <h4 data-l10n-id="slogan">ARCHITECTURAL 3D RENDERING</h4>
     </div>
     <div class="page-scroll">
       <a href="#contact" class="btn btn-circle">
@@ -86,7 +89,7 @@
 	  <div class="col-lg-8 col-lg-offset-2">
 	    <div class="wow bounceInDown" data-wow-delay="0.4s">
 	      <div class="section-heading">
-		<h2>Get in touch</h2>
+		<h2 data-l10n-id="getintouch">Get in touch</h2>
 		<i class="fa fa-2x fa-angle-down"></i>
 	      </div>
 	    </div>
@@ -106,22 +109,22 @@
           </div>
           <div class="col-lg-4">
             <div class="widget-contact">
-              <h5>Main Office</h5>
+              <h5 data-l10n-id="office">Office</h5>
 
               <address>
                 <strong>Francisco Avileo</strong><br>
                 Luz 12 3ºA<br>
                 Ciudad Real CP 13100 (Spain)<br>
-                <abbr title="Phone">Cell:</abbr> +34 650 806 753
+                <abbr title="Phone"></abbr> +34 650 806 753
               </address>
 
               <address>
-                <strong>Email</strong><br>
+                <strong data-l10n-id="email">Email</strong><br>
                 <a href="mailto:">francisco.avileo@gmail.com</a>
               </address>
 
               <address>
-                <strong>We're on social networks</strong><br>
+                <strong data-l10n-id="social">We're on social networks</strong><br>
                 <ul class="company-social">
                   <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                   <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -148,7 +151,7 @@
               </a>
             </div>
           </div>
-          <p>&copy;Copyright 2014 - Francisco Avileo. All rights reserved.</p>
+          <p data-l10n-id="copyright">Francisco Avileo. All rights reserved.</p>
         </div>
       </div>
     </div>
